@@ -9,12 +9,15 @@ Puedes instalar el proyecto clonando el repositorio:
 - $ git clone 'url'
 
 
-Luego de haber clonando el proyecto, puedes utilizar los siguientes comandos para lanzar los test:
+Luego de haber clonado el proyecto, puedes utilizar los siguientes comandos dentro del terminal
+para lanzar los test:
 
 1. Para lanzar el test suite completo (incluye los 5 caso de pruebas):
+
   mvn -P AllTestSuite test
   
-2. Para lanzar un test case individualmente, puedes utilizar los siguientes comandos:
-  mvn -Dtest=test.TestCase00<X>
+2. Para lanzar un test case individualmente, puedes utilizar el siguiente comando:
+
+  mvn -Dtest=test.TestCase00n
   
-  *Importante reemplazar el <X> por un numero entre 1 al 5, dependiendo cual test case deseas lanzar.*
+  *Importante reemplazar el 'n' por un numero entre 1 al 5, dependiendo cual test case deseas lanzar.*
