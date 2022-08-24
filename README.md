@@ -1,5 +1,5 @@
 # Prueba Ingreso Front (Selenium + Rest Assured)
 
-<h1>Welcome to my project<h2>
+Welcome to my project
 
 
